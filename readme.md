@@ -2,7 +2,7 @@
 
 ## A demo of an integration test case for Symfony 5, that supports automatic migrations and running integration tests in an in-memory sqlite database.
 
-The integration test case class in this project (in `tests/TestCases/Integration`) helps you when you create integration tests that require database interaction. The test case builds the database schema for you, based on your migrations, instead of you having to migrate your migrations through a `bin/console` command.
+The integration test case class in this project (in [`tests/TestCases/Integration`](https://github.com/iamreinder/integration-test-case-demo/tree/main/tests/TestCases/Integration)) helps you when you create integration tests that require database interaction. The test case builds the database schema for you, based on your migrations, instead of you having to migrate your migrations through a `bin/console` command.
 
 A benefit of this is that you can run your tests in an in-memory sqlite database. An in-memory database is fast, but also very practical if you'd like to run your tests in a CI/CD pipeline and don't want to setup a MySQL or Postgres database on the pipeline runner instance.
 
@@ -20,7 +20,7 @@ Once the required dependencies are installed, use the following command to run t
 bin/phpunit --testdox
 ```
 
-Feel free to use the integration test case (in `tests/TestCases/Integration`) for your own projects. I'd love to hear if it helps you in your workflow.
+Feel free to use the integration test case (in [`tests/TestCases/Integration`](https://github.com/iamreinder/integration-test-case-demo/tree/main/tests/TestCases/Integration)) for your own projects. I'd love to hear if it helps you in your workflow.
 
 If you find any mistakes, please let me know by posting an issue or creating a pull request.
 
